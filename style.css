@@ -1,9 +1,79 @@
-p {
-  font-size: 20px;
+h2 {
+  font-size: 34px;
 }
 
-.underline {
-  text-decoration: underline;
+p {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+}
+
+#introPageCentering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+#introPageInnerContainer div {
+  width: 90%;
+  text-align: left;
+}
+
+#mainCentering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#videoContainer .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  background: rgb(55, 150, 115);
+  opacity: 0.6;
+}
+
+#videoBg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+  opacity: 0.5;
+}
+
+#middleLayer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.mainText {
+  color: black;
+  font-size: 24px;
+  background-color: rgba(225, 225, 225, 0.7);
+  padding: 10px;
+  width: fit-content;
+  margin-left: 60px;
+}
+
+.centerText {
+  text-align: center !important;
 }
 
 .bold {
@@ -12,6 +82,10 @@ p {
 
 .italics {
   font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .bgYellow {
@@ -24,4 +98,9 @@ p {
 
 .bgCyan {
   background-color: cyan;
+}
+
+.sidePadding {
+  width: 60%;
+  text-align: left;
 }
