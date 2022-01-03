@@ -1,0 +1,27 @@
+p {
+  font-size: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.bgYellow {
+  background-color: yellow;
+}
+
+.bgRed {
+  background-color: red;
+}
+
+.bgCyan {
+  background-color: cyan;
+}
